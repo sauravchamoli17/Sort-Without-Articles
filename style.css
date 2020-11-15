@@ -1,0 +1,33 @@
+@font-face {
+    src: url('./Calibre-Regular.ttf');
+    font-family:Calibre;
+}
+html{
+    font-size:17px;
+    overflow-x: hidden;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./background.jpg') no-repeat;
+    background-size: cover;
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+#bands{
+    list-style-type: square;
+    background:rgb(255, 255, 255);
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.247);
+    width:25%;
+    padding:15px 30px 15px 30px;
+}
+
+li{
+    font-family: Calibre;
+    font-size:1.8rem;
+    padding:8px 5px 5px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
