@@ -8,13 +8,14 @@ html{
 }
 body{
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: url('./background.jpg') no-repeat;
     background-size: cover;
     height:100vh;
     margin:0;
-    padding:0;
+    padding:25px 0px 25px 0px;
 }
 #bands{
     list-style-type: square;
@@ -27,7 +28,25 @@ body{
 
 li{
     font-family: Calibre;
-    font-size:1.8rem;
+    font-size:1.4rem;
     padding:8px 5px 5px 5px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+button{
+    width:200px;
+    height:200px;
+    font-family: Calibre;
+    cursor: pointer;
+    border:0;
+    outline:0;
+    font-size:1.4rem;
+    padding:10px 5px 10px 5px;
+    background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+    color:rgb(255, 255, 255);
+    transition: all 0.6s ease;
+}
+
+button:hover{
+    background: linear-gradient(-170deg, #c16ecf 0%, #2376ae  100%);
 }
